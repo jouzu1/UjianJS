@@ -30,9 +30,9 @@ class Draw{
         for(let i = 0 ; i<p ; i++){
             for(let j = 0 ; j<p ; j++){
                 if((i%2==0 && j%2==1) || (i%2==1 && j%2==0) ){
-                    process.stdout.write("! ")
+                    process.stdout.write("!")
                 }else{
-                    process.stdout.write("* ")
+                    process.stdout.write("*")
                 }
                 
             }console.log(" ")
@@ -46,17 +46,17 @@ class Draw{
                 //Baris urutan genap
                 if(i%2==0){
                     if(j==2){
-                        process.stdout.write("! ")
+                        process.stdout.write("!")
                     }
                     else{
-                        process.stdout.write("* ")
+                        process.stdout.write("*")
                     }
                 }else if(i%2==1){
                     if(j==1){
-                        process.stdout.write("! ")
+                        process.stdout.write("!")
                     }
                     else{
-                        process.stdout.write("* ")
+                        process.stdout.write("*")
                     }
                 }
                 // if(i==0 && j==2){
