@@ -1,0 +1,12 @@
+{
+  "name": "com.ujian",
+  "version": "1.0.0",
+  "description": "ujianJS",
+  "main": "Draw.js",
+  "scripts": {
+    "start":"node Draw.js",
+    "test": "test"
+  },
+  "author": "Jouzu Ridzky",
+  "license": "ISC"
+}
